@@ -1,0 +1,21 @@
+---
+title:
+- type: main
+  text: My Test Book
+- type: subtitle
+  text: The Book Of Testing
+creator:
+- role: author
+  text: Geoffrey Harrison
+description: ""
+abstract: ""
+page-progression-direction: "ltr"
+ibooks:
+  ipad-orientation-lock: portrait-only
+  iphone-orientation-lock: portrait-only
+  scroll-axis: default
+
+rights: © 2018 Geoffrey Harrison, Commercial
+identifier: ""
+# stylesheet: epub.css
+# cover-image: cover.jpg

@@ -1,0 +1,23 @@
+/* General Publishing Settings */
+body { font-family: Georgia,"Times New Roman",Times; margin: 5%; text-align: justify; font-size: medium; }
+h1 { text-align: left; font-size: 1.5em; font-weight: bold; margin-bottom: 0; padding-bottom: 0; }
+h2 { text-align: left; font-size: 1.2em; font-weight: bold; margin-top: 2px; padding-top: 2px; margin-bottom: 5px; padding-bottom: 5px; }
+p { margin-top: 5px; padding-top: 5px; margin-bottom: 5px; padding-bottom: 5px; }
+ol.toc { padding: 0; margin-left: 1em; }
+ol.toc li { list-style-type: none; margin: 0; padding: 0; }
+a.footnote-ref { vertical-align: super; }
+
+/* Part Page Formatting */
+section[id^="part-"] { margin-top: 50% ; page-break-after: always; }
+section[id^="part-"] h1 { text-align: center; font-size: 1.8em; font-weight: bold; }
+section[id^="part-"] h2 { text-align: center;  font-size: 1.4em; font-weight: bold; }
+
+/* Asterisk Based Horizontal Rules */
+hr { border: none; text-align: center;  word-spacing: 50px; }
+hr:after { content: "* * *"; }
+
+/* Dedication Block Quote */
+blockquote { margin-top: 50%; font-style: italic; }
+
+/* Code Blocks */
+code { font-family: monospace; }
